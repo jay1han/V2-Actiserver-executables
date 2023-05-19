@@ -2,5 +2,4 @@
 
 ./killjava.sh
 
-cd /home/pi/IdeaProjects/Actiserver
-java -cp classes:lib/'*' ActiserverKt
+java -jar Actiserver.main.jar
