@@ -13,7 +13,3 @@ echo > server.log
 echo {} > self.data
 chmod 666 *.log *.data
 
-systemctl daemon-reload
-systemctl enable actiserver
-systemctl start actiserver
-
