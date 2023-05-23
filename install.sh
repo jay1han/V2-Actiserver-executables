@@ -3,7 +3,7 @@
 mkdir /etc/actimetre
 mkdir /var/www/cgi-bin
 
-cp actiserver.conf clearserver.sh Actiserver_main.jar /etc/actimetre
+cp actiserver.conf clearserver.sh Actiserver-2.0.jar /etc/actimetre
 cp actiserver.service /etc/systemd/system/
 
 cd /etc/actimetre
