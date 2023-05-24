@@ -1,0 +1,15 @@
+[Unit]
+Description=Actiserver
+
+Wants=network.target
+After=syslog.target network-online.target
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/java -jar /etc/actimetre/Actiserver-2.0.jar
+Restart=on-failure
+RestartSec=10
+KillMode=mixed
+
+[Install]
+WantedBy=multi-user.target

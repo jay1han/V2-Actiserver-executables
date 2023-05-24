@@ -1,5 +1,6 @@
 #!/usr/bin/bash
 
-./killjava.sh
+systemctl daemon-reload
+systemctl enable actiserver
+systemctl start actiserver
 
-java -jar Actiserver.main.jar
