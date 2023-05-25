@@ -1,7 +1,6 @@
 #!/usr/bin/bash
 
 mkdir /etc/actimetre
-mkdir /var/www/cgi-bin
 
 cp actiserver.conf clearserver.sh Actiserver-2.0.jar /etc/actimetre
 cp actiserver.service /etc/systemd/system/
