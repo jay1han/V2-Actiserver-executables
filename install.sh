@@ -15,3 +15,4 @@ echo > server.log
 echo {} > self.data
 chmod 666 *.log *.data
 
+echo "Please review and edit /etc/actimetre/actiserver.conf"
