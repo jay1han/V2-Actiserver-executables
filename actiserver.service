@@ -6,6 +6,7 @@ After=syslog.target network-online.target
 
 [Service]
 Type=simple
+User=actiserver
 ExecStart=/usr/bin/java -jar /etc/actimetre/Actiserver-2.0.jar
 Restart=on-failure
 RestartSec=30
