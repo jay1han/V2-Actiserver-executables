@@ -12,6 +12,7 @@ cd /etc/actimetre
 chown www-data:www-data .
 chmod 777 . *.sh
 echo > server.log
+echo > report.log
 echo {} > self.data
 chmod 666 *.log *.data
 
