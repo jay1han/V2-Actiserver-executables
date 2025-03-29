@@ -7,6 +7,7 @@ chmod 777 /media/actimetre
 
 cp actiserver.conf clearserver.sh Actiserver-2.0.jar /etc/actimetre
 cp actiserver.service /etc/systemd/system/
+cp sudoers.actiserver /etc/sudoers.d/
 
 cd /etc/actimetre
 chown www-data:www-data .
